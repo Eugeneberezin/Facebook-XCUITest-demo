@@ -25,6 +25,8 @@ class Facebook_XCUITest_demoUITests: XCTestCase {
 
     func testfaceBookRegistration() {
         
+        //TODO: Create page object model and refactor the code
+        
         facebookApp.launch()
         let createAccount = facebookApp /*@START_MENU_TOKEN@*/.buttons["sign-up-button"]/*[[".otherElements[\"login-main\"].buttons[\"sign-up-button\"]",".buttons[\"sign-up-button\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
         let getStartedButton = facebookApp/*@START_MENU_TOKEN@*/.buttons["get-started-button-welcome"]/*[[".scrollViews",".buttons[\"Get Started\"]",".buttons[\"get-started-button-welcome\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
